@@ -1,0 +1,5 @@
+20/02
+URLS: 
+    * porta de entrada da app: google.com.br/
+    * indicar para o django onde encontra as paginas do site.
+
