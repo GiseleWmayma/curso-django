@@ -16,7 +16,7 @@ class Recipe(models.Model):
     preparation_time_unit = models.CharField(max_length=65)
     servings = models.IntegerField()
     servings_unit = models.CharField(max_length=65)
-    preparation_step = models.TextField()
+    preparation_steps = models.TextField()
     preparation_step_is_html = models.BooleanField(default=False)
     created_at = models.DateTimeField(auto_now_add=True) #registra e não tem como alterar
     update_at = models.DateTimeField(auto_now=True)
